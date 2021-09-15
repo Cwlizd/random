@@ -1,6 +1,11 @@
 import random
 
-r = random.randint(1,100)
+A = input('猜數字範圍最小直想要多少R:')
+A = int(A)
+B = input('猜數字範圍最大直想要多少R:')
+B = int(B)
+
+r = random.randint(A,B)
 print(r)
 n = 0
 while True:
